@@ -15,17 +15,16 @@
     2. [Question 4](#question4)
     2. [Question 5](#question5)
     2. [Question 6](#question6)
-    3. [Extra Credit 1](#ec1)
 5. [Overview](#overview)
     1. [Checklist](#checklist)
     2. [Grading Rubric](#grading)
 
 # Objectives <a name="objectives"></a>
 
-* Compile and run C++ code 
+* Compile and run C++ code
 * Take user inputs and produce outputs
-* Understand C++ data types 
-* Perform arithmetic operations 
+* Understand C++ data types
+* Perform arithmetic operations
 
 
 # Background <a name="background"></a>
@@ -59,7 +58,7 @@ Sum of numbers: 3
 
 When programming, we store the variables in our computer's memory, but the computer needs to know what kind of data we want to store in them, since it is not going to occupy the same amount of memory to store a simple number than to store a single letter or a large number, and they are not going to be interpreted the same way. Some commonly used data types in C++ are:
 
-1. int (for integers) 
+1. int (for integers)
     * int myInt = 5;  
 2. char (for characters)
     * char myChar = 'c';
@@ -163,7 +162,7 @@ string ageOfPerson = "Michael";
     Save in variable number_1
     2. Ask the user to enter a number
     Save in variable number_2
-    3. Compute sum 
+    3. Compute sum
     sum = number_1 + number_2
     4. Display sum to user
     */
@@ -208,12 +207,12 @@ If a program is more interactive, it’s fun! Create a program that takes a name
 
 Expected output (**bold** is user input)
 <pre>
-Enter your name: 
+Enter your name:
 <b>Tuhina</b>
-Hello, <b>Tuhina</b>! 
+Hello, <b>Tuhina</b>!
 </pre>
 
-The file should be named as _helloYou.cpp_. Don’t forget to head over to the Homework 1 - Coderunner assignment on Canvas and paste your solution in the answer box! 
+The file should be named as _helloYou.cpp_. Don’t forget to head over to the Homework 1 - Coderunner assignment on Canvas and paste your solution in the answer box!
 
 ## **Question 2 (4 points): Almond Milk (pseudocode)** <a name="question2"></a>
 While shopping over the weekend for almond milk, you discover that all the almond milk cartons have square bases and varying heights. Write an algorithm which takes user inputs for the side length of the square base of the carton in inches and the height of the carton in inches and outputs how many ounces a carton holds. You can use the following formula to convert cubic inches to ounces:
@@ -226,10 +225,10 @@ Hint: you should calculate cubic inches from the cartons dimensions before calcu
 
 **--- Sample run ---:** <br/>
 ```
-What is the side length of the base of the carton in inches? 
-2 
-What is the height of the carton in inches? 
-4 
+What is the side length of the base of the carton in inches?
+2
+What is the height of the carton in inches?
+4
 The carton has a volume of 8.8 ounces.
 ```
 Don’t forget to head over to the Homework 1 - Coderunner assignment on Canvas and paste your solution in the answer box!
@@ -249,13 +248,13 @@ The output should be the volume of the carton in ounces formatted with a two-dig
 
 **--- Sample run ---:** <br/>
 ```
-What is the side length of the base of the carton in inches? 
-2 
-What is the height of the carton in inches? 
-4 
+What is the side length of the base of the carton in inches?
+2
+What is the height of the carton in inches?
+4
 The carton has a volume of 8.80 ounces.
 ```
-The file should be named as _almondMilk.cpp_. Don’t forget to head over to the Homework 1 - Coderunner assignment on Canvas and paste your solution in the answer box! 
+The file should be named as _almondMilk.cpp_. Don’t forget to head over to the Homework 1 - Coderunner assignment on Canvas and paste your solution in the answer box!
 
 ## **Question 4 (16 points): Snowfall** <a name="question4"></a>
 
@@ -272,14 +271,14 @@ The resorts have provided us with the snowfall and melt rate predictions per day
 | Breckenridge    | 15                             | 4                          |
 | Vail            | 11                             | 7                          |
 | Copper Mountain | 3                              | 2                          |
- 
+
 **--- Sample run ---:** <br/>
 ```
 How many days in the future would you like a prediction for?
 10
 Breckenridge will have 138 inches, Vail will have 73 inches, and Copper Mountain will have 65 inches.
 ```
-The file should be named as _snowfall.cpp_. Don’t forget to head over to the Homework 1 - Coderunner assignment on Canvas and paste your solution in the answer box! 
+The file should be named as _snowfall.cpp_. Don’t forget to head over to the Homework 1 - Coderunner assignment on Canvas and paste your solution in the answer box!
 
 ## **Question 5 (16 points): Convert wizarding currency** <a name="question5"></a>
 
@@ -292,14 +291,14 @@ In the wizarding world, currency conversion is as given below:
 Write a program that takes a number of Knuts as user input (as an integer) and converts it to the number of whole Galleons, Sickles, and Knuts as shown below. The conversion information between these measurement metrics is provided in the table above. You should convert the number of Knuts in such a way that maximizes the whole number of Galleons and Sickles.
 
 
-Expected output 1 (**bold** is user input) 
+Expected output 1 (**bold** is user input)
 <pre>
 Enter the number of Knuts:
 <b>32</b>
 0 Galleons(s) 1 Sickle(s) 3 Knut(s)
 </pre>
 
-Expected output 2 (**bold** is user input) 
+Expected output 2 (**bold** is user input)
 <pre>
 Enter the number of Knuts:
 <b>3000</b>
@@ -322,13 +321,13 @@ Write a program that takes a real number x as the input (x is of type double) an
 For e<sup>z</sup> use the function exp(), which is available in #include \<cmath>.
 
 Expected output 1 (**bold** is user input)
-<pre> 
+<pre>
 Enter a value for x:
 <b>1</b>
 The sigmoid for x=1 is 0.731059
 </pre>
 
-Expected output 2 (**bold** is user input) 
+Expected output 2 (**bold** is user input)
 <pre>
 Enter a value for x:
 <b>10</b>
@@ -337,40 +336,18 @@ The sigmoid for x=10 is 0.999955
 
 The file should be named as calcSigmoid.cpp. Don’t forget to head over to Coderunner on Canvas and paste your solution in the answer box!
 
-## **Extra Credit: Question 1 (6 points): Convert length** <a name="ec1"></a>
-Write a program that takes a number of millimeters as user input (as an integer) and converts it to meters, centimeters, and millimeters as shown below. You should convert the amount of length in such a way that maximizes the whole number of meters and centimeters.
-
-
-Expected output 1 (**bold** is user input) 
-<pre>
-Enter the number of millimeters:
-<b>62</b>
-0 meter(s) 6 centimeter(s) 2 millimeter(s)
-</pre>
-
-Expected output 2 (**bold** is user input) 
-<pre>
-Enter the number of millimeters:
-<b>3671</b>
-3 meter(s) 67 centimeter(s) 1 millimeter(s)
-</pre>
-
-The file should be named as _convertLength.cpp_. Don’t forget to head over to Coderunner on Canvas and paste your solution in the answer box!
-
 
 # Homework 1 overview  <a name="overview"></a>
 ## Checklist <a name="checklist"></a>
 Here is a checklist for submitting the assignment:
-1. Use your solutions in VS Code to complete the **Homework 1 - Coderunner** assignment on Canvas. 
-    * For additional extra credit, submit the extra credit question to **Homework 1 - Coderunner** (Extra Credit).
-2. Submit one zip file to the **Homework 1** assignment on Canvas. The zip file should be named, **hmwk1_lastname.zip**. It should have the following 6 files: 
-    * helloWorld.cpp 
+1. Use your solutions in VS Code to complete the **Homework 1 - Coderunner** assignment on Canvas.
+2. Submit one zip file to the **Homework 1** assignment on Canvas. The zip file should be named, **hmwk1_lastname.zip**. It should have the following 6 files:
+    * helloWorld.cpp
     * helloYou.cpp
     * almondMilk.cpp
     * snowfall.cpp
     * convertCurrency.cpp
     * calcSigmoid.cpp
-    * Extra-credit: convertLength.cpp
 
 
 ## Grading Rubric <a name="grading"></a>
@@ -383,8 +360,7 @@ Here is a checklist for submitting the assignment:
 | Question 4                  | 16     |
 | Question 5                  | 16    |
 | Question 6                  | 10     |
-| Recitation attendance (Week 3)*             | -6    |
+| Recitation attendance (Week 1)*             | -6    |
 | Total                                       | 60     |
-| Extra Credit - Question 1                | 6     |
 
 * If your attendance is not recorded, you will lose points. Make sure your attendance is recorded on Canvas.
