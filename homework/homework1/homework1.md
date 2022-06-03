@@ -341,7 +341,7 @@ The file should be named as calcSigmoid.cpp. Don’t forget to head over to Code
 ## Checklist <a name="checklist"></a>
 Here is a checklist for submitting the assignment:
 1. Use your solutions in VS Code to complete the **Homework 1 - Coderunner** assignment on Canvas.
-2. Submit one zip file to the **Homework 1** assignment on Canvas. The zip file should be named, **hmwk1_lastname.zip**. It should have the following 6 files:
+2. Submit one zip file to the **Homework 1** assignment on Canvas. The zip file should be named, **hmwk1_lastname.zip**. It should have the following 5 files:
     * helloYou.cpp
     * almondMilk.cpp
     * snowfall.cpp
