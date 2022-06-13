@@ -370,9 +370,9 @@ The file should be named as **printTriangle.cpp**. Don’t forget to head over t
 
 
 
-## Extra Credit Question (4 points): Print inverse diamond<a name="ec1"></a>
+## Extra Credit Question (10 points): Print inverse diamond<a name="ec1"></a>
 
-Write a program that takes a positive interger input as side length of a diamond and prints the inverse of the diamond like below.
+Write a program that takes a positive integer input as side length of a diamond and prints the inverse of the diamond like below.
 
 Make sure your program validates the user input. If the user tries to input a negative number, print ”Invalid input.”
 
@@ -467,4 +467,4 @@ Here is a checklist for submitting the assignment:
 | Question 4                  | 15     |
 | Question 5                  | 15     |
 | Total                       | 60     |
-| Extra Credit Question       | 4    |
+| Extra Credit Question       | 10    |
