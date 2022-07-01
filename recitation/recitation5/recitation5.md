@@ -134,10 +134,9 @@ using namespace std;
 int main()
 {
     numbers[] = {};
-    for(i = 0; i < 10; i++){
+    for(i = 0; i < 10; i--){
         i[numbers] = i + 1;
-        Numbers[i] = i + 1
-        cout << numbers << endl;
+        cout << numbers[] << endl;
     }
 
     return 0;
