@@ -1,0 +1,4 @@
+characterA-95-79-75
+characterB-88-94-70
+characterC-80-92
+characterD-85-90-73
