@@ -335,7 +335,7 @@ _* For the purpose of this test code snippet, algorithm comments were not includ
 * vectors
 * global variables
 
-## Question 1: Netflix Streaming <a name="question1"></a>
+## Question 1 (14 points) : Netflix Streaming <a name="question1"></a>
 
 Today is your first day as a software engineering intern at Netflix. For your first assignment, your boss asked you to develop a function to print statistics about the most streamed TV shows. You've been given **show_list.txt**, a file which contains a list of some of the most popular shows. Each line contains the name of the show and number of streams separated by a single "-" delimeter.
 
@@ -387,7 +387,7 @@ Could not open file.
 Your file should be named tvStreamStats.cpp and should also include a main function that tests your tvStreamStats() function. Once you have finished developing and testing your solution in VSCode, you should head over to the CodeRunner on Canvas and paste only your **tvStreamStats() function** into the answer box for question 1.
 
 
-## Question 2: Read orders <a name="question2"></a>
+## Question 2 (14 points) : Read orders <a name="question2"></a>
 
 For this problem, we'll reuse the **split** function, preloaded for you in Coderunner. In the specifications, we mentioned that **split** should return an integer based on one of the following conditions:
 
@@ -453,7 +453,7 @@ Could not open file.
 
 Your file should be named readOrders.cpp and should also include a main function that tests your readOrders() function. Once you have finished developing and testing your solution in VSCode you should head over to the CodeRunner on Canvas and paste only your **split()** and **readOrders()** functions into the answer box for question 2.
 
-## Question 3: Video Game Statistics <a name="question3"></a>
+## Question 3 (16 points) : Video Game Statistics <a name="question3"></a>
 In an effort to get rich quick with your newly acquired C++ skills, you begin to design an open world game for the app store. You offer the users various options when it comes to designing a character. Each character can be summarized by four attributes: their default name, maximum stamina, maximum health and special skill value. The **game_samples.txt** file stores the character attributes in each line separated by `"-"` delimiters. Much like in Question 2, not every line has the right amount information we want so design **readData** to account for this. **readData** should take the filename as an input, read the file, parse each line (hint: use your **split** function. It should once again require no modifications) and store the information in a 2D array.
 
 Sample file ([game_samples.txt](data_files/game_samples.txt)):
@@ -538,7 +538,7 @@ Could not open file.
 
 Your file should be named videoGameStats.cpp and should also include a main function that tests your readData() function. Once you have finished developing and testing your solution in VSCode you should head over to the CodeRunner on Canvas and paste only your **split()** and **readData()** functions into the answer box for question 3.
 
-## Question 4: Computing Score <a name="question4"></a>
+## Question 4 (16 points) : Computing Score <a name="question4"></a>
 
 Once you've successfully implemented and tested **readData**, write a function **calcOverallScore**. To calculate an overall score for each character, take the average of the max health, max stamina, and special skill value using the 2D array populated by **readData**. For example, the overall score for characterA from the **game_samples.txt** file would be:
 
