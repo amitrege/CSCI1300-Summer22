@@ -368,7 +368,7 @@ tvStreamStats(filename);
 ```
 Output:
 ```
-Number of lines read: 3.
+Number of lines read: 4.
 Most streamed show: The Office with 887000 streams.
 Least streamed show: Seinfeld with 675000 streams.
 ```
