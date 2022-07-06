@@ -432,7 +432,7 @@ if (numOrders != -1)
 ```
 Output:
 ```
-Number of orders: 2.
+Number of orders: 4.
 ```
 
 **Sample run 2**
